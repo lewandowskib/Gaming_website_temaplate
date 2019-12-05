@@ -79,11 +79,14 @@ img {
 .post-info {
     display: flex;
     justify-content: space-between;
-    padding-top: 18px;
+    padding-top: 13px;
 }
 
 .post-info span {
     font-family: 'Roboto', sans-serif;
+}
+.post-info i{
+    padding: 5px;
 }
 .post-info i, span{
     font-weight: 400;
