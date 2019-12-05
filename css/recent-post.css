@@ -86,9 +86,11 @@ img {
     font-family: 'Roboto', sans-serif;
 }
 .post-info i{
-    padding: 5px;
+    padding: 7px;
+
 }
 .post-info i, span{
+    margin-left: 2px;
     font-weight: 400;
     color: #30343ac5;
 }
