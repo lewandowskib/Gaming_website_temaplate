@@ -45,7 +45,7 @@ div.review-box {
     padding: 15px;
 }
 
-button {
+.review-box__left button {
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
