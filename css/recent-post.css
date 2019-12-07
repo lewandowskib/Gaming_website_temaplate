@@ -85,12 +85,39 @@ img {
 .post-info span {
     font-family: 'Roboto', sans-serif;
 }
-.post-info i{
+
+.post-info i {
     padding: 7px;
 
 }
-.post-info i, span{
+
+.post-info i,
+span {
     margin-left: 2px;
     font-weight: 400;
     color: #30343ac5;
+}
+
+.more {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.more>button {
+    display: block;
+    margin: auto;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: rgb(103, 100, 107);
+    border-color: rgb(103, 100, 107);
+    box-shadow: none;
+}
+
+.more>button:hover {
+    background-color: rgb(82, 80, 85);
+
 }
