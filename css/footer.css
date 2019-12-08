@@ -34,9 +34,10 @@ footer .upper__footer {
     padding: 5px;
 }
 
-.widgets>button {
+.widgets button {
     margin-top: 20px;
     border-color: #ffffff33;
+    background-color: transparent;
     color: #ffffff73;
     border-radius: 5px;
     padding: 13px;

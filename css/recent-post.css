@@ -12,7 +12,7 @@
     margin-right: auto;
 }
 
-header i {
+header>i {
     font-size: 3rem;
     color: rgb(110, 170, 238);
 }
@@ -108,13 +108,15 @@ span {
 
 .more>button {
     display: block;
-    margin: auto;
-    font-size: 1.1rem;
-    padding: 10px 20px;
-    color: #ffffff;
-    background-color: rgb(103, 100, 107);
-    border-color: rgb(103, 100, 107);
-    box-shadow: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #ffffff33;
+    background-color: #525055da;
+    color: #eee;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 1rem;
 }
 
 .more>button:hover {
