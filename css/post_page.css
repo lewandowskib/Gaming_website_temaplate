@@ -111,7 +111,7 @@ i:hover>span {
     margin-right: auto;
     margin-top: 20px;
     padding-bottom: 60px;
-    border-bottom: 1px solid rgba(77, 77, 77, 0.103);
+    border-bottom: 1px dashed rgba(0, 0, 0, .14);
 }
 
 .comments_header {
@@ -124,6 +124,7 @@ i:hover>span {
 .comments_header>i {
     font-size: 1.125rem;
 }
+
 i>b {
     font-family: 'Roboto', sans-serif;
 }
