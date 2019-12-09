@@ -53,13 +53,13 @@ p>a {
     color: #eee;
 }
 
-i>.txt{
+i>.txt {
     display: none;
     padding-top: 2px;
     font-size: 1.3rem;
 }
 
-i:hover>.txt{
+i:hover>.txt {
     padding-left: 5px;
     color: #eee;
     font-weight: 400;
@@ -128,15 +128,6 @@ i:hover>.txt{
 i>b {
     font-family: 'Roboto', sans-serif;
 }
-
-select {
-    color: #67646b;
-    background-color: #f7f7f7;
-    border-color: #c7c7c7;
-    border-radius: 5px;
-    padding: 5px;
-}
-
 .alert {
     width: 100%;
     margin-top: 15px;

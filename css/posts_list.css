@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import "reset.css";
+@import "style.css";
+@import "menu.css";
+@import "footer.css";
+
+
+.list-container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.navigation {
+    margin-top: 90px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-form {
+    padding-right: 10px;
+}
+
+article {
+    margin-top: 35px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.151);
+}
+img{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.art_content>a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.art_content>a:hover{
+    color: #2575dc;
+} 
+
+.art_content>p{
+    margin-top: 15px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.art_info{
+    color: rgba(0, 0, 0, 0.637);
+    padding-top: 10px;
+}
+.art_info>i{
+    padding-right: 10px;
+}
+
+.page-navigation{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination a{
+    color: rgba(0, 0, 0, 0.637);
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+.pagination a:hover{
+    background-color: rgba(0, 0, 0, 0.171);
+
+}

@@ -5,12 +5,13 @@
 @import "recent-post.css";
 @import "footer.css";
 
-
-body {
+body{    background-color: #fefefe;}
+body,span {
     font-family: 'Roboto', sans-serif;
-    background-color: #fefefe;
 }
-
+a{
+    text-decoration: none;
+}
 button{
     background-color: Transparent;
     background-repeat: no-repeat;
@@ -18,4 +19,12 @@ button{
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+select {
+    color: #67646b;
+    background-color: #f7f7f7;
+    border-color: #c7c7c7;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 0.9rem;
 }

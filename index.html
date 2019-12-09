@@ -11,16 +11,40 @@
 </head>
 
 <body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("test_list");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
     <div class="nav-container">
         <nav>
             <div class="nav__left">
                 <h1>Gameforest</h1>
-                <div><a href="#">Home <i class="fas fa-angle-down"></i></a></div>
+                <div class="test" onclick="myFunction()"><a href="#">Home <i class="fas fa-angle-down"></i></a>
+                    <div id="test_list">
+                        <ul>
+                            <a href="">
+                                <li>Coffee</li>
+                            </a>
+                            <a href="">
+                                <li>Coffee</li>
+                            </a>
+                            <a href="">
+                                <li>Coffee</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
                 <div><a href="#">Blog <i class="fas fa-angle-down"></i></a></div>
                 <div><a href="#">Games <i class="fas fa-angle-down"></i></a></div>
                 <div><a href="#">Pages <i class="fas fa-angle-down"></i></a></div>
             </div>
-
             <div class="nav__right">
                 <div><a href="#">Login</a></div>
                 <div><a href="#">x</a></div>
@@ -257,12 +281,7 @@
                 <i class="fab fa-github"></i>
                 <i class="fab fa-twitch"></i>
             </div>
-
         </div>
-
-
-
-
     </footer>
 </body>
 
