@@ -5,14 +5,20 @@
 @import "recent-post.css";
 @import "footer.css";
 
-body{    background-color: #fefefe;}
-body,span {
+body {
+    background-color: #fefefe;
+}
+
+body,
+span {
     font-family: 'Roboto', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-button{
+
+button {
     background-color: Transparent;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -20,6 +26,7 @@ button{
     overflow: hidden;
     outline: none;
 }
+
 select {
     color: #67646b;
     background-color: #f7f7f7;
