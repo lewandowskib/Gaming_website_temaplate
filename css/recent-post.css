@@ -93,6 +93,14 @@ img {
     padding: 2px;
 }
 
+.post-interact i:first-child:hover{
+    color: rgba(255, 0, 0, 0.548);
+}
+
+.post-interact i:nth-child(2):hover{
+    color: rgb(42, 90, 245);
+}
+
 .post-info i,
 span {
     margin-left: 2px;
