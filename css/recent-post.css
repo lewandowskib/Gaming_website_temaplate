@@ -52,26 +52,26 @@ header p {
     box-shadow: 1px 1px #88888850;
 }
 
-img {
+.image>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.image {
+.post>.image {
     width: 100%;
     height: 65%;
     margin: auto;
     padding-bottom: 15px;
 }
 
-.text h3 {
+.post>.text h3 {
     color: #30343a;
     font-weight: 500;
     padding-bottom: 15px;
 }
 
-.text p {
+.post>.text p {
     color: #30343ac5;
     font-size: 0.9rem;
     line-height: 1.4;
