@@ -41,14 +41,11 @@ div.nav__right>div {
 #test_list {
     background-color: #222;;
     position: absolute;
-    margin-top:125px;
-    margin-left: 12px;
+    margin-top: 75px;
+    margin-left: 20px;
     width: 100px;
-    overflow: hidden;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
     color: #eee;
+    padding: 5px;
 }
 
 a>li{
