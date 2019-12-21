@@ -8,7 +8,7 @@ div.nav-container {
     z-index: 100;
 }
 
-.nav-container >nav {
+.nav-container>nav {
     width: 80%;
     height: 100%;
     margin-left: auto;
@@ -24,7 +24,7 @@ div.nav__right {
 }
 
 div.nav__left>div,
-div.nav__right>div {
+div.nav__right>div ul {
     padding-left: 10px;
     padding-right: 10px;
     height: 100%;
@@ -33,25 +33,6 @@ div.nav__right>div {
     flex-direction: column;
     justify-content: center;
 }
-.test{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#test_list {
-    background-color: #222;;
-    position: absolute;
-    margin-top: 75px;
-    margin-left: 20px;
-    width: 100px;
-    color: #eee;
-    padding: 5px;
-}
-
-a>li{
-    padding: 7px;
-}
-
 nav h1 {
     color: #eee;
     font-weight: 600;
@@ -69,7 +50,17 @@ nav a:hover {
     color: #fafafa;
 }
 
-div.nav__left>div:hover,
-div.nav__right>div:hover {
-    background: rgba(255, 255, 255, 0.1);
+ul>li{
+    display: ;
 }
+.nav__left div{
+    position: relative;
+}
+.dropdown{
+    background-color: blue;
+    width: 100px;
+}
+.dropdown >a{
+ display: flex;
+}
+
