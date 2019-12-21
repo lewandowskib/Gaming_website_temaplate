@@ -23,8 +23,7 @@ div.nav__right {
     align-items: center;
 }
 
-div.nav__left>div,
-div.nav__right>div ul {
+div.nav__right>.menelement {
     padding-left: 10px;
     padding-right: 10px;
     height: 100%;
@@ -33,11 +32,13 @@ div.nav__right>div ul {
     flex-direction: column;
     justify-content: center;
 }
+
 nav h1 {
     color: #eee;
     font-weight: 600;
     font-size: 1.3rem;
     padding-right: 15px;
+    margin-right: 10px;
 }
 
 nav a {
@@ -50,17 +51,36 @@ nav a:hover {
     color: #fafafa;
 }
 
-ul>li{
-    display: ;
-}
-.nav__left div{
-    position: relative;
-}
-.dropdown{
-    background-color: blue;
-    width: 100px;
-}
-.dropdown >a{
- display: flex;
+.drop-menu {
+    display: block;
+    height: 100%;
+    width: 65px;
+    padding-right: 15px;
 }
 
+.drop-menu>a {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 50px;
+}
+
+.drop-menu:hover>ul {
+    visibility: visible;
+}
+
+ul {
+    visibility: hidden;
+    background-color: #222;
+    width: 140px;
+}
+
+li {
+    padding: 5px;
+}
+
+li:hover {
+    background-color: black;
+    color: rgb(0, 183, 255);
+    cursor: pointer;
+}
