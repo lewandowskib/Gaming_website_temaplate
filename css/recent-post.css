@@ -1,5 +1,5 @@
 .recent-box {
-    width: 100%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -31,25 +31,22 @@ header p {
 }
 
 .posts {
-    width: 80%;
-    height: auto;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
+    max-width: 50%;
+    min-width:350px;
+    margin: auto;
 }
 
 .post {
-    width: 350px;
+    width: 330px;
     height: 484px;
-    padding: 10px 10px 5px 10px;
-    margin: 15px;
-    float: left;
+    padding: 10px 15px 5px 10px;
+    display: inline-block;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
     box-shadow: 1px 1px #88888850;
+    margin-top: 20px;
+    margin-left: 1%;
 }
 
 .image>img {
@@ -83,6 +80,7 @@ header p {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .post-info span {
@@ -93,11 +91,11 @@ header p {
     padding: 2px;
 }
 
-.post-interact i:first-child:hover{
+.post-interact i:first-child:hover {
     color: rgba(255, 0, 0, 0.548);
 }
 
-.post-interact i:nth-child(2):hover{
+.post-interact i:nth-child(2):hover {
     color: rgb(42, 90, 245);
 }
 
@@ -125,7 +123,9 @@ span {
     background-color: #525055da;
     color: #eee;
     border-radius: 5px;
-    padding: 13px;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 2%;
     font-size: 1rem;
 }
 

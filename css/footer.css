@@ -1,25 +1,24 @@
 footer {
-    width: 100%;
-    height: 410px;
+    min-width: 100%;
+    min-height: 410px;
     background-color: #292b2f;
-    clear: both;
 }
 
 footer .upper__footer {
-    width: 85%;
+    max-width:85%;
     height: auto;
     display: flex;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .upper__footer .widgets {
-    width: 30%;
+   max-width: 30%;
     height: auto;
     float: left;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 5%;
 }
 
 .widgets h4 {
@@ -41,7 +40,7 @@ footer .upper__footer {
     background-color: transparent;
     color: #ffffff73;
     border-radius: 5px;
-    padding: 13px;
+    padding: 3%;
     font-size: 1rem;
 }
 
@@ -61,17 +60,19 @@ footer .upper__footer {
 
 .footer__down {
     border-top: 1px solid #ffffff3a;
-    width: 100%;
-    height: 27%;
+    max-width: 100%;
+    min-height: 27%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: rgba(255, 255, 255, .45);
     font-size: 0.9rem;
+ 
 }
 
 .page_info>.footer-links {
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .footer-links>a {
@@ -86,17 +87,20 @@ footer .upper__footer {
 .footer__down a:hover {
     color: #eee;
 }
-
+.footer-copyright{
+    max-width: 80%;
+    line-height: 1.5;
+}
 .socials>h5 {
     color: rgba(255, 255, 255, .45);
     margin-bottom: 7px;
+    margin-top: 40px;
 }
 
 .socials>i {
     color: #eeeeee86;
     margin: 3px;
 }
-
 .socials>i:hover {
     color: #eee;
 }
