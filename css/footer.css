@@ -12,6 +12,7 @@ footer .upper__footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+   
 }
 
 .upper__footer .widgets {
@@ -23,7 +24,8 @@ footer .upper__footer {
 }
 
 .widgets h4 {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 600;
     color: #eee;
 }
@@ -32,7 +34,8 @@ footer .upper__footer {
     color: rgba(255, 255, 255, .45);
     font-size: 0.9rem;
     line-height: 1.5;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .widgets button {
@@ -68,6 +71,7 @@ footer .upper__footer {
     align-items: center;
     color: rgba(255, 255, 255, .45);
     font-size: 0.9rem;
+    
  
 }
 
@@ -77,7 +81,7 @@ footer .upper__footer {
 }
 
 .footer-links>a {
-    margin: 5px;
+    margin-right: 5px;
 }
 
 .footer__down a {

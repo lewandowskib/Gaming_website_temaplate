@@ -32,19 +32,21 @@ div.review-box {
     color: #eee;
     font-size: 2.3rem;
     font-weight: 600;
-    padding-left: 15px;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .review-box p {
     color: rgb(192, 192, 192);
     font-size: 1rem;
     line-height: 1.5;
-    padding: 15px;
+    padding-left: 1px;
+
 }
 
 .review-box span {
-    padding: 15px;
+margin-left: -10px;
+    
 }
 
 .review-box__left button {
@@ -66,7 +68,7 @@ span .button-left:hover {
 }
 
 span .button-right {
-    margin-left: 7px;
+    margin-left: 8px;
     border: 0.5px solid #eee;
     margin-top: 10px;
 }
@@ -80,12 +82,15 @@ span .button-right:hover {
     display: flex;
     max-width: 30%;
     align-items: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 
-div.circle h3 {
+div.circle >h3 {
     color: #eee;
-    align-items: stretch;
+    font-size: 1.4rem;
+    text-align: left;
     margin-bottom: 8px;
     font-weight: 600;
 }
