@@ -145,25 +145,23 @@ i>b {
 }
 
 .comment {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #00000013;
     display: flex;
     padding: 2%;
-}
-
-.avatar {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
+    flex-wrap: wrap;
 }
 
 .avatar>img {
+    width: 65px;
+    height: 65px;
     object-fit: contain;
     border-radius: 50%;
 }
 
 .comment>.content {
     width: 80%;
+    min-width: 50%;
     line-height: 1.2;
     padding: 10px;
     color: rgba(77, 77, 77, 0.637);
