@@ -6,10 +6,12 @@
 
 
 .list-container {
-    max-width: 60%;
+    max-width: 55%;
     height: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
+    padding-right:60px ;
 }
 
 .navigation {
@@ -40,7 +42,7 @@ article {
 }
 img {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 400px;
     margin-bottom: 20px;
 }
 .image>iframe{

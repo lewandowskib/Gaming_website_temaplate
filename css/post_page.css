@@ -148,6 +148,7 @@ i>b {
     padding-bottom: 20px;
     border-bottom: 1px solid #00000013;
     display: flex;
+    padding: 2%;
 }
 
 .avatar {
