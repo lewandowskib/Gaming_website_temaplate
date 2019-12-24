@@ -43,49 +43,41 @@ body {
     margin-top: 30px;
 }
 
-.content-panel {
-    max-width: 75%;
-    height: auto;
-
-}
-.reviews{
-    
-}
 .review {
-    max-width: 100%;
-    height: auto;
+    max-width: 750px;
+    min-height: 200px;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     border-bottom: 1px dashed rgba(198, 194, 186, 0.336);
     color: black;
+    display: flex;
 }
 
 .review>.image {
-    width: 345px;
-    height: 335px;
-    padding: 5px;
+    width: 185px;
+    height: 205px;
+    margin-right: 10px;
     border: 1px solid #c6c2ba13;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 .image>img {
-    width: 100%;
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .review>.text {
-    width: 40%;
-    height: 200px;;
-    padding: 5%;
-    background-color: cornflowerblue;
+    max-width: 70%;
+    min-height: 200px;
+    padding: 3%;
 }
 
 .review>.text h3 {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 10px;
-    
+
 }
 
 .review-info span {
@@ -98,17 +90,16 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+    color: rgba(0, 0, 0, 0.788);
 }
 
-.widget-panel h3{
+.widget-panel h3 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
-
 }
 
-.find-widget{
+.find-widget {
     width: 255px;
     height: 295px;
-
 }
