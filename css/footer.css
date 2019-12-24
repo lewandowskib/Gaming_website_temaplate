@@ -40,7 +40,7 @@ footer .upper__footer {
 
 .widgets button {
     margin-top: 20px;
-    border-color: #ffffff33;
+    border: 1px solid #ffffff10;
     background-color: transparent;
     color: #ffffff73;
     border-radius: 5px;
@@ -49,7 +49,7 @@ footer .upper__footer {
 }
 
 .widgets button:hover {
-    background-color: #ffffff2c;
+    background-color: #ffffff09;
     color: #fefefe;
 }
 
