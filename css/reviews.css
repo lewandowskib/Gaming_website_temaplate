@@ -38,23 +38,24 @@ body {
 
 .reviews_container {
     max-width: 1110px;
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
 }
 
 .review {
-    max-width: 750px;
-    min-height: 200px;
+    min-width: 500px;
+    min-height: 300px;
     margin-top: 20px;
     padding-bottom: 5px;
-    border-bottom: 1px dashed rgba(198, 194, 186, 0.336);
+    border-bottom: 1px dashed rgba(143, 141, 139, 0.336);
     color: black;
     display: flex;
 }
 
 .review>.image {
-    width: 185px;
+    min-width: 285px;
     height: 205px;
     margin-right: 10px;
     border: 1px solid #c6c2ba13;
@@ -62,14 +63,12 @@ body {
 }
 
 .image>img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
 }
 
 .review>.text {
-    max-width: 70%;
-    min-height: 200px;
+    min-width: 300px;
+    height: 300px;
     padding: 3%;
 }
 
