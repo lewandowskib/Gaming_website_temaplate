@@ -4,57 +4,67 @@
 @import "menu.css";
 @import "footer.css";
 
-.nav-bar {
-    max-width: 100%;
-    height: 500px;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.301);
+body {
+    overflow: auto;
 }
-
-.top-navi {
-    max-width: 100%;
-    height: 80%;
+.nav-bar {
+    width: 100%;
+    height: 300px;
     background-image: url('../img/game.jpg');
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+    background-color: cornflowerblue;
 }
 
-.top-content {
+.top-navi {
     max-width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.719);
 }
 
+
 .posts-nav {
     max-width: 1100px;
     margin-top: 30px;
+    padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.301);
 }
 
 .navi-left {
-    max-width: 60%;
+    width: 80%;
     display: flex;
-    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
 }
 
 .navi-left>h3 {
-    max-width: 30%;
+    min-width: 20%;
     color: rgba(0, 0, 0, 0.541);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 10px;
 }
 
 .navi-left>form {
-    max-width: 80%;
+    width: 400px;
+    min-width: 200px;
+    margin-bottom: 10px;
 }
 
 form>input {
-    max-width: 65%;
+    width: 30%;
+    min-width: 230px;
+    height: 40px;
     padding: 3%;
     font-size: 17px;
     border: 1px solid rgba(128, 128, 128, 0.459);
@@ -63,7 +73,6 @@ form>input {
     border-right: none;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
-
 }
 
 form>button>i {
@@ -71,10 +80,11 @@ form>button>i {
 }
 
 form>button {
+    height: 40px;
+    min-width: 10px;
     float: left;
-    max-width: 20%;
-    padding: 8px;
-    font-size: 17px;
+    padding: 2%;
+    font-size: 19px;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.459);
     border-left: none;
@@ -83,27 +93,20 @@ form>button {
     cursor: pointer;
 }
 
-.post-container{
+
+.post-container {
     max-width: 1160px;
     height: auto;
-    overflow:auto;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-.post-container>.post{
-    width: 300px;
-    height: 450px;
-    padding-bottom: 20px;
-    margin-left: 50px;
-
+    margin-top: 1vh;
 }
 
-.page-navigation{
+.page-navigation {
     max-width: 50vh;
     height: 100%;
     margin-left: auto;
@@ -111,13 +114,13 @@ form>button {
     margin-bottom: 100px;
 }
 
-.pagination a{
+.pagination a {
     color: rgba(0, 0, 0, 0.637);
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.281);
 }
 
-.pagination a:hover{
+.pagination a:hover {
     background-color: rgba(0, 0, 0, 0.075);
 
 }
