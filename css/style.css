@@ -5,13 +5,9 @@
 @import "recent-post.css";
 @import "footer.css";
 
-body{
+body {
     background-color: #f3f0f0;
-    margin: 0;
-    padding: 0;
-    height: 100%;
 }
-
 
 body,
 span {
@@ -40,31 +36,74 @@ select {
     font-size: 0.9rem;
 }
 
-
 .news-container {
-    width: 90%;
-    height: 550px;
-    margin-bottom: 150px;
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 50px;
+}
 
-}
-.news-left,.news-right{
+.news-post {
     width: 100%;
-    height: 50%;
+    height: auto;
     display: flex;
-    background-color: tomato;
+    flex-wrap: wrap;
 }
+
 .news {
     width: 50%;
-    height: 100%;
-    background-color: turquoise;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 auto;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
 }
 
-.news>img{
+.news>img {
     width: 100%;
-    height: 100%;
+    height: 350px;
     object-fit: cover;
+}
 
+.news>.content {
+    visibility: hidden;
+    width: auto;
+    height: 350px;
+    position: absolute;
+    background-color: rgba(110, 123, 238, 0.705);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.news:hover>.content {
+    visibility: visible;
+}
+
+.content>h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.content>p {
+    width: 65%;
+    padding-top: 2%;
+    line-height: 1.3;
+}
+
+.content-info>button {
+    border: none;
+    background: lightsalmon;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 700;
+}
+
+.content-info {
+    margin-top: 15px;
 }
