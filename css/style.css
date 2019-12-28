@@ -73,7 +73,7 @@ select {
     width: auto;
     height: 350px;
     position: absolute;
-    background-color: rgba(110, 165, 238, 0.705);
+    background-color: rgba(2, 4, 5, 0.514);
     display: flex;
     flex-direction: column;
     align-items: center;
