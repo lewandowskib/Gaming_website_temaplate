@@ -53,8 +53,6 @@ header p {
 
 .post:hover{
     margin-top: 1px;
-    transform: scale(0.85);
-    transition: all 700ms;
     box-shadow: 5px 5px 5px 5px #0000002f;
 } 
 
@@ -119,9 +117,12 @@ span {
 .more {
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 130px;
+    height: 100%;
     margin-top: 20px;
     margin-bottom: 60px;
+    background-color: #fff;
+    border-radius: 5%;
 }
 
 .more>button {
@@ -134,6 +135,7 @@ span {
     padding: 10px;
     max-width: 200px;
     font-size: 1rem;
+    text-align: center;
 }
 
 .more>button:hover{
