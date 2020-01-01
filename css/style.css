@@ -80,7 +80,9 @@ select {
     justify-content: center;
     color: white;
 }
-
+.news:hover>img{
+    filter: blur(2px);
+}
 .news:hover>.content {
     visibility: visible;
 }
@@ -88,17 +90,19 @@ select {
 .content>h1 {
     font-size: 2.2rem;
     font-weight: 600;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .content>p {
     width: 65%;
     padding-top: 2%;
     line-height: 1.3;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .content-info>button {
     border: none;
-    background: lightsalmon;
+    background:rgb(77, 151, 236);
     font-size: 0.9rem;
     color: white;
     font-weight: 700;
