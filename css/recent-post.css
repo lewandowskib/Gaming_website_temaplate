@@ -49,13 +49,14 @@ header p {
     box-shadow: 1px 1px #88888850;
     margin-top: 20px;
     margin-left: 1%;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 
 .post:hover{
     margin-top: 1px;
     box-shadow: 5px 5px 5px 5px #0000002f;
 } 
-
 
 .image>img {
     width: 100%;
@@ -82,6 +83,10 @@ header p {
     line-height: 1.4;
     border-bottom: 1px solid #30343a7c;
     padding-bottom: 15px;
+    width: 100%;
+    height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .post-info {

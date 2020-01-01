@@ -15,11 +15,15 @@
 }
 
 .post_page {
-    width: 55%;
+    width: 60%;
+    min-width: 200px;
+    flex: 1 auto;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     background-color: rgba(211, 211, 211, 0.281);
+    display: flex;
+    flex-direction: column;
 }
 
 .post_page>h1 {
@@ -28,7 +32,8 @@
     margin-bottom: 15px;
 }
 
-.post_page>.post_info, span {
+.post_page>.post_info,
+span {
     margin-bottom: 20px;
     color: #000000be;
     font-family: 'Roboto', sans-serif;
@@ -48,7 +53,7 @@
 }
 
 .socials-link>p {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 30px;
@@ -109,12 +114,12 @@ i:hover>.txt {
 .tags>button {
     border: 1px solid rgba(0, 0, 0, .2);
     padding: 10px;
-    color: rgb(2, 130, 250);
+    color: hsl(0, 2%, 39%);
     font-weight: 600;
 }
 
 .tags>button:hover {
-    color: hsl(0, 2%, 39%);
+    color: rgb(2, 130, 250);
     text-decoration: none;
 }
 
@@ -162,17 +167,20 @@ i>b {
     display: flex;
     padding: 2%;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 auto;
 }
 
 .avatar>img {
-    width: 65px;
-    height: 65px;
+    width: 85px;
+    height: 85px;
     object-fit: contain;
     border-radius: 50%;
 }
 
 .comment>.content {
-    width: 80%;
+    max-width: 80%;
     min-width: 50%;
     line-height: 1.2;
     padding: 10px;
@@ -187,16 +195,19 @@ i>b {
     margin-bottom: 5px;
 }
 
-
 .interaction {
-    flex: none;
+    min-width: 10%;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .interaction>button {
+    width: 60px;
+
     padding: 5px;
     border: 1px solid rgba(77, 77, 77, 0.103);
 }
-
 
 .new-coment {
     width: 100%;
@@ -214,6 +225,12 @@ textarea {
     resize: none;
     width: 100%;
     height: 100px;
+    color: rgba(77, 77, 77, 0.616);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    background-color: #f3f0f0;
+    border: 1px solid #d9d8de;
+    border-radius: .25rem;
 }
 
 .new-coment>button {
@@ -228,5 +245,12 @@ textarea {
 
 .new-coment>button:hover {
     background-color: rgb(44, 113, 241);
+}
 
+.post {
+    height: 342px;
+}
+
+.post>.text>p {
+    border: none;
 }
