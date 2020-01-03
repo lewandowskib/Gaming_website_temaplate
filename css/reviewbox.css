@@ -1,6 +1,6 @@
 div.review-container {
-    max-width: 70%;
-    min-height: 500px;
+    max-width: 60%;
+    min-height: 350px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
@@ -16,16 +16,20 @@ div.review-box {
     min-width: 100%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #292b2fb4;
+    flex-wrap: wrap;
 }
 
 
 .review-box__left {
     max-width: 50%;
-    height: 100%;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 30px;
+    flex: 1 auto;
 }
 
 .review-box h1 {
@@ -34,6 +38,7 @@ div.review-box {
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .review-box p {
@@ -41,12 +46,10 @@ div.review-box {
     font-size: 1rem;
     line-height: 1.5;
     padding-left: 1px;
-
 }
 
 .review-box span {
-margin-left: -10px;
-    
+    margin-left: -10px;
 }
 
 .review-box__left button {
@@ -54,6 +57,7 @@ margin-left: -10px;
     border-radius: 40px;
     padding: 1vw;
     font-size: 1rem;
+    order: 2;
 }
 
 span .button-left {
@@ -81,46 +85,33 @@ span .button-right:hover {
 .review-box__right {
     display: flex;
     max-width: 30%;
+    min-width: 200px;
     align-items: center;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-div.circle >h3 {
-    color: #eee;
-    font-size: 1.4rem;
-    text-align: left;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-
-#progress-fill .color-one {
-    stop-color: #5A7ABC;
-}
-
-#progress-fill .color-two {
-    stop-color: #ED495D;
-}
-
-.progress-circle {
-    fill: transparent;
-    stroke: #eee;
-    stroke-width: 2;
-    stroke-dasharray: 255;
-    -webkit-transition: stroke-dashoffset ease-out .4s;
-    -moz-transition: stroke-dashoffset ease-out .4s;
-    -ms-transition: stroke-dashoffset ease-out .4s;
-    transition: stroke-dashoffset ease-out .4s;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 auto;
 }
 
 .circle {
+    width: 130px;
+    height: 130px;
+    border: 2px solid whitesmoke;
+    background: rgba(0, 0, 0, 0.233);
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-.circle svg {
-    margin: auto;
+.circle>h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.review-box__right>h3 {
+    color: white;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
