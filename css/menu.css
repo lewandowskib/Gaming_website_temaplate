@@ -58,19 +58,19 @@ nav a:hover {
     margin-right: 3px;
     text-align: center;
 }
+
 .drop-menu>a {
     display: inline-block;
     vertical-align: middle;
     height: 100%;
     line-height: 50px;
-
 }
 
 .drop-menu:hover>ul {
     visibility: visible;
 }
 
-ul {
+.drop-menu>ul {
     visibility: hidden;
     background-color: #222;
     width: 120px;
@@ -78,11 +78,11 @@ ul {
     text-align: left;
 }
 
-li {
+.drop-menu.ul>li {
     padding: 10px;
 }
 
-li:hover {
+.drop-menu.ul>li:hover {
     background-color: black;
     color: rgb(0, 183, 255);
     cursor: pointer;

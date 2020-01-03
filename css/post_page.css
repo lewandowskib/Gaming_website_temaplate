@@ -7,7 +7,7 @@
 
 .container {
     margin-top: 50px;
-    width: 100%;
+    min-width: 100%;
     height: auto;
     padding-bottom: 50px;
     border-bottom: 1px dashed rgba(0, 0, 0, .14);
@@ -16,14 +16,15 @@
 
 .post_page {
     width: 60%;
-    min-width: 200px;
+    min-width: 370px;
     flex: 1 auto;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    background-color: rgba(211, 211, 211, 0.281);
+    /*background-color: rgba(245, 244, 244, 0.281); */
     display: flex;
     flex-direction: column;
+    flex: 1 auto;
 }
 
 .post_page>h1 {
@@ -253,4 +254,88 @@ textarea {
 
 .post>.text>p {
     border: none;
+}
+
+/* Review page */
+.reviewbox-container {
+    margin-top: 50px;
+    background-color: #191919;
+}
+.reviewbox-container>h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fefefe;
+    padding: 25px;
+}
+.reviewbox {
+    margin-top: 20px;
+    min-width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.rate-container{
+    flex: 1 auto;
+    display: flex;
+    justify-content: center;
+}
+.rate{
+    width: 150px;
+    height: 150px;
+    border: 2px solid whitesmoke;
+    background: rgba(0, 0, 0, 0.411);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate>h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+.pros-cons {
+    min-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 auto;
+}
+
+.positives,
+.negatives {
+    min-width: 40%;
+    flex-direction: column;
+    display: flex;
+    flex: 1 auto;
+    padding: 10px;
+}
+
+.positives>ul,
+.negatives>ul {
+    text-align: center;
+}
+
+.positives>ul>li,
+.negatives>ul>li {
+    text-align: left;
+    padding-top: 10px;
+    color: white
+}
+
+.positives>h2,
+.positives i {
+    color: #7db142;
+}
+
+.negatives>h2,
+.negatives i {
+    color: rgb(228, 84, 84);
+}
+
+.positives>h2,
+.negatives>h2 {
+    font-size: 1.7rem;
+    margin-top: 10px;
 }
