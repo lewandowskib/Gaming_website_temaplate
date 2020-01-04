@@ -104,15 +104,15 @@ header p {
     padding: 2px;
 }
 
-.post-interact i:first-child:hover {
+.post-interact>i:first-child:hover {
     color: rgba(255, 0, 0, 0.548);
 }
 
-i:first-child:hover>span {
+.post-interact>i:first-child:hover>span {
     color: rgba(255, 0, 0, 0.548);
 }
 
-.post-interact i:nth-child(2):hover {
+.post-interact>i:nth-child(2):hover {
     color: rgb(42, 90, 245);
 }
 

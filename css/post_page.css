@@ -255,6 +255,9 @@ textarea {
 .post>.text>p {
     border: none;
 }
+.recent-box{
+    margin-bottom: 20px;
+}
 
 /* Review page */
 .reviewbox-container {

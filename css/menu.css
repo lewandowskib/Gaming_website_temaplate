@@ -23,16 +23,6 @@ div.nav__right {
     align-items: center;
 }
 
-div.nav__right>.menelement {
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
 nav h1 {
     color: #eee;
     font-weight: 600;
@@ -86,4 +76,20 @@ nav a:hover {
     background-color: black;
     color: rgb(0, 183, 255);
     cursor: pointer;
+}
+
+.drop-menu>.search{
+    width: 350px;
+    height: 60px;
+}
+
+li>form>input{
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #55585d;
+    background-color: #fff;
+    border: 1px solid #d9d8de;
+    border-radius: .25rem;
 }
