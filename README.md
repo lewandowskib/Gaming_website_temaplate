@@ -5,7 +5,7 @@ Blog template made with HTML and CSS3 [[Live preview ](https://funnycactus.githu
 The blog template is inspired by https://gameforest.yakuthemes.com
 
 ## Home page preview
-![Home page](https://user-images.githubusercontent.com/53121602/73542110-497ae380-4434-11ea-9476-ec58c8cad307.jpg)
+![Home page](https://user-images.githubusercontent.com/53121602/73564408-c53e5580-445f-11ea-9c06-0a3b9e2325c3.jpg)
 
 
 ## To do
