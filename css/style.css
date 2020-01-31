@@ -27,12 +27,11 @@ button {
     outline: none;
 }
 
-select {
-    color: #67646b;
+select, option{
     background-color: #f7f7f7;
-    border-color: #c7c7c7;
+    border: 1px solid #c7c7c752;
     border-radius: 5px;
-    padding: 7px;
+    padding: 10px;
     font-size: 0.9rem;
 }
 
