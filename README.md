@@ -7,13 +7,6 @@ The blog template is inspired by https://gameforest.yakuthemes.com
 ## Home page preview
 ![Home page](https://user-images.githubusercontent.com/53121602/73564408-c53e5580-445f-11ea-9c06-0a3b9e2325c3.jpg)
 
-
-## To do
-- [ ] Responsive menu
-- [ ] Responsive menu
-- [ ] Responsive menu
-
-
 ######  Images
 - [Super Mario Odyssey Press kit](https://www.igdb.com/games/super-mario-odyssey/presskit) 
 - [A New Beginning: Final Cut Press kit](https://www.igdb.com/games/a-new-beginning-final-cut/presskit)
