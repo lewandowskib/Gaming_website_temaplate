@@ -2,11 +2,12 @@
 
 Blog template made with HTML and CSS3 <br/>
 The blog template is inspired by https://gameforest.yakuthemes.com
+[Live preview ](https://funnycactus.github.io/Gaming_website_temaplate/)
 
 ## Home page preview
 ![Home page](https://user-images.githubusercontent.com/53121602/73542110-497ae380-4434-11ea-9476-ec58c8cad307.jpg)
 
-[Live preview ](https://funnycactus.github.io/Gaming_website_temaplate/)
+
 ## To do
 - [ ] Responsive menu
 
