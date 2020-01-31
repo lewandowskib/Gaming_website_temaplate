@@ -10,6 +10,8 @@ The blog template is inspired by https://gameforest.yakuthemes.com
 
 ## To do
 - [ ] Responsive menu
+- [ ] Responsive menu
+- [ ] Responsive menu
 
 
 ######  Images
