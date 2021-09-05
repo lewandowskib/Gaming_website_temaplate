@@ -1,6 +1,6 @@
 # Gaming_website_temaplate
 
-Blog template made with HTML and CSS3 [[Live preview ](https://funnycactus.github.io/Gaming_website_temaplate/)
+Blog template made with HTML and CSS3 [[Live preview ](https://lewandowskib.github.io/Gaming_website_temaplate/)
 ]<br/>
 The blog template is inspired by https://gameforest.yakuthemes.com
 
